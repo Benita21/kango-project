@@ -1,0 +1,27 @@
+.services{
+    // display: flex;
+    @media(max-width:768px){
+        width: 100%;
+    }
+    img{
+        width: 220px;
+    }
+    h4{
+        font-size: 1.8rem;
+        text-align: center;
+        background-color: rgb(245,166,35);
+        padding: 1rem 1rem;
+         @media(max-width:768px){
+        width: 100%;
+        // margin-left: 1rem;
+    }
+        
+    }
+    .apps{
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        padding: 2rem 4rem;
+        align-items: center;
+    }
+}

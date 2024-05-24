@@ -1,0 +1,39 @@
+.products{
+    // display: flex;
+    gap: 4rem;
+    // justify-content: space-between;
+    p{
+        font-size: .8rem;
+    }
+    @media(max-width:768px){
+        width: 100%;
+    }
+    padding: 2rem;
+    h4{
+        font-size: 1.3rem;
+        color: whitesmoke;
+        padding: 1rem;
+        background-color: rgb(148,0,79);
+        @media(max-width:768px){
+            width: 100%;
+            font-size: 2rem;
+        }
+    }
+    .spornsored{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        @media(max-width:768px){
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            // display: flex;
+            // flex-wrap: wrap;
+            // flex-direction: column;
+            // flex-wrap: wrap;
+        }
+        img{
+            width: 180px;
+        }
+    }
+}

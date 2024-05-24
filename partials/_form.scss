@@ -1,0 +1,34 @@
+.form{
+    z-index: 500;
+    background-color: greenyellow;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    display: none;
+    top: 3rem;
+    @media(max-width:768px){
+        display: block;
+    }
+    .closeMe{
+        font-size: 3rem;
+    }
+    .btns{
+        display: flex;
+        gap: 1rem;
+        button{
+            padding: .2rem 2rem;
+        }
+    }
+    .track{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        p{
+            font-size: .6rem;
+        }
+        .orders{
+            display: flex;
+            gap: .5rem;
+        }
+    }
+}
