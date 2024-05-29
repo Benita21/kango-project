@@ -423,10 +423,12 @@ body .form {
     width: 100%;
     background-color: rgb(196, 139, 191);
     padding-top: 2rem;
+    margin-top: 3rem;
   }
   .main2 .main1 {
     width: 100%;
     font-size: 0.5rem;
+    padding-bottom: 3rem;
   }
   .main2 .main1 .log {
     font-size: 0.4rem;
@@ -438,10 +440,13 @@ body .form {
   gap: 3rem;
   padding: 1rem;
   align-items: center;
+  background-color: rgb(179, 174, 174);
+  padding-top: 7rem;
 }
 @media (max-width: 768px) {
   .main2 .icons-only {
     font-size: 1rem;
+    position: relative;
   }
   .main2 .icons-only p {
     font-size: 0.5rem;
@@ -484,6 +489,7 @@ body .form {
     align-items: center;
     background-color: rgb(204, 201, 201);
     margin-left: 2rem;
+    margin-top: 3rem;
   }
   .main2 .input input {
     width: 90%;
@@ -634,23 +640,61 @@ body .form {
 .baby {
   padding: 2rem 2rem;
 }
+@media (max-width: 769px) {
+  .baby {
+    width: 100%;
+  }
+}
 .baby .specual img {
-  width: 1350px;
+  width: 1320px;
+  border-radius: 1rem;
+}
+@media (max-width: 769px) {
+  .baby .specual img {
+    width: 340px;
+  }
 }
 .baby .bigsave {
   display: flex;
   padding-top: 1rem;
   gap: 1rem;
 }
+@media (max-width: 769px) {
+  .baby .bigsave {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .baby .bigsave img {
   width: 700px;
+  border-radius: 1rem;
+}
+@media (max-width: 769px) {
+  .baby .bigsave img {
+    width: 340px;
+  }
 }
 .baby .furniture {
   display: flex;
   padding-top: 1rem;
   align-items: center;
-  gap: 0.7rem;
+  justify-content: space-between;
+}
+@media (max-width: 769px) {
+  .baby .furniture {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.4rem;
+    align-items: center;
+  }
 }
 .baby .furniture img {
   width: 300px;
+}
+@media (max-width: 769px) {
+  .baby .furniture img {
+    width: 165px;
+  }
 }/*# sourceMappingURL=style.css.map */

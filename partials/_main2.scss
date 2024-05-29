@@ -4,12 +4,17 @@
         width: 100%;
         background-color: rgb(196, 139, 191);
         padding-top: 2rem;
+        margin-top: 3rem;
         // padding-left: 1rem;
         .main1{
             width: 100%;
             font-size: .5rem;
+            // position: fixed;
+            padding-bottom: 3rem;
             .log{
                 font-size: .4rem;
+                // position: fixed;
+                // position: fixed;
             }
         }
     }
@@ -20,9 +25,13 @@
         gap: 3rem;
         padding: 1rem;
         align-items: center;
+        background-color:rgb(179, 174, 174);
+        padding-top: 7rem;
         @media(max-width:768px){
             font-size: 1rem;
+            position: relative;
             p{
+
                 font-size: .5rem;
             }
             .shirt{
@@ -70,6 +79,7 @@
     .input{
         display: none;
         @media(max-width:768px){
+            // position: fixed;
             display: block;
             display: flex;
             width: 80%;
@@ -77,6 +87,7 @@
             background-color:  rgb(204, 201, 201);
             // padding-left: 2rem;
             margin-left: 2rem;
+            margin-top: 3rem;
             input{
                 width: 90%;
                 padding: .5rem .2rem;
@@ -105,12 +116,14 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
+    // position: fixed;
     .log{
         display: flex;
         align-items: center;
+        // position: fixed;
         img{
             width: 100px;
-          
+            // position: fixed;
         }
         .close{
             @media(max-width:768px){
@@ -127,6 +140,7 @@
     }
     .icon{
         font-size: 2rem;
+        // position: fixed;
         i{
             font-size: 2rem;
         }
