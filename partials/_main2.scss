@@ -4,7 +4,14 @@
         width: 100%;
         background-color: rgb(196, 139, 191);
         padding-top: 2rem;
-        padding-left: 1rem;
+        // padding-left: 1rem;
+        .main1{
+            width: 100%;
+            font-size: .5rem;
+            .log{
+                font-size: .4rem;
+            }
+        }
     }
     .icons-only{
         display: flex;
@@ -13,6 +20,49 @@
         gap: 3rem;
         padding: 1rem;
         align-items: center;
+        @media(max-width:768px){
+            font-size: 1rem;
+            p{
+                font-size: .5rem;
+            }
+            .shirt{
+                p{
+                    font-size: .7rem;
+                }
+                
+            }
+            .desktop{
+                p{
+                    font-size: .7rem;
+                }
+                
+            }
+            .devices{
+                p{
+                    font-size: .7rem;
+                }
+                
+            }
+            .mobile{
+                p{
+                    font-size: .7rem;
+                }
+                
+            }
+            .msg{
+                p{
+                    font-size: .7rem;
+                }
+                
+            }
+        }
+
+        p{
+            font-size: 1rem;
+            @media(max-width:768px){
+                font-size: 1rem;
+            }
+        }
         i{
             color: aliceblue;
         }

@@ -38,11 +38,12 @@
         }
     }
     .nav-items{
+        width: 100%;
 
         display: flex;
         justify-content: space-between;
         gap: 3rem;
-        font-size: 1rem;
+        font-size: .8rem;
         @media(max-width:768px){
             display: flex;
             flex-direction: column;

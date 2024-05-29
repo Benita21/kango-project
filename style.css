@@ -64,10 +64,11 @@ body .form {
   }
 }
 .nav-header .nav-items {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 3rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 @media (max-width: 768px) {
   .nav-header .nav-items {
@@ -190,7 +191,6 @@ body .form {
   width: 100%;
   height: 100%;
   gap: 1rem;
-  padding: 2rem;
   align-items: center;
   padding-top: 14rem;
 }
@@ -201,7 +201,6 @@ body .form {
     align-items: start;
     padding: 0rem 0rem;
     padding-top: 14rem;
-    padding-left: 4rem;
   }
   .cat-images .major {
     display: none;
@@ -214,7 +213,6 @@ body .form {
 @media (max-width: 768px) {
   .cat-images .main1 {
     width: 100%;
-    padding-right: 5rem;
   }
 }
 .cat-images .main1 img {
@@ -222,7 +220,7 @@ body .form {
 }
 @media (max-width: 768px) {
   .cat-images .main1 img {
-    width: 500px;
+    width: 400px;
   }
 }
 .cat-images .major {
@@ -348,6 +346,7 @@ body .form {
 @media (max-width: 768px) {
   .products {
     width: 100%;
+    padding: auto;
   }
 }
 .products h4 {
@@ -359,7 +358,7 @@ body .form {
 @media (max-width: 768px) {
   .products h4 {
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 .products .spornsored {
@@ -372,12 +371,17 @@ body .form {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 0.1rem;
   }
 }
 .products .spornsored img {
   width: 180px;
 }
 
+.services {
+  width: 100%;
+  align-items: center;
+}
 @media (max-width: 768px) {
   .services {
     width: 100%;
@@ -387,7 +391,7 @@ body .form {
   width: 220px;
 }
 .services h4 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   text-align: center;
   background-color: rgb(245, 166, 35);
   padding: 1rem 1rem;
@@ -399,10 +403,18 @@ body .form {
 }
 .services .apps {
   display: flex;
-  gap: 1.5rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
-  padding: 2rem 4rem;
+  padding: 2rem 6rem;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .services .apps {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -411,7 +423,13 @@ body .form {
     width: 100%;
     background-color: rgb(196, 139, 191);
     padding-top: 2rem;
-    padding-left: 1rem;
+  }
+  .main2 .main1 {
+    width: 100%;
+    font-size: 0.5rem;
+  }
+  .main2 .main1 .log {
+    font-size: 0.4rem;
   }
 }
 .main2 .icons-only {
@@ -420,6 +438,37 @@ body .form {
   gap: 3rem;
   padding: 1rem;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .main2 .icons-only {
+    font-size: 1rem;
+  }
+  .main2 .icons-only p {
+    font-size: 0.5rem;
+  }
+  .main2 .icons-only .shirt p {
+    font-size: 0.7rem;
+  }
+  .main2 .icons-only .desktop p {
+    font-size: 0.7rem;
+  }
+  .main2 .icons-only .devices p {
+    font-size: 0.7rem;
+  }
+  .main2 .icons-only .mobile p {
+    font-size: 0.7rem;
+  }
+  .main2 .icons-only .msg p {
+    font-size: 0.7rem;
+  }
+}
+.main2 .icons-only p {
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .main2 .icons-only p {
+    font-size: 1rem;
+  }
 }
 .main2 .icons-only i {
   color: aliceblue;
@@ -504,11 +553,6 @@ body .form {
   display: none;
   top: 3rem;
 }
-@media (max-width: 768px) {
-  .form {
-    display: block;
-  }
-}
 .form .closeMe {
   font-size: 3rem;
 }
@@ -530,4 +574,83 @@ body .form {
 .form .track .orders {
   display: flex;
   gap: 0.5rem;
+}
+
+.recommended {
+  padding-left: 2rem;
+}
+.recommended h4 {
+  background-color: rgb(243, 228, 240);
+  padding: 1rem 0.5rem;
+}
+@media (max-width: 768px) {
+  .recommended {
+    width: 100%;
+  }
+}
+.recommended .all {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 1rem;
+  gap: 1rem;
+}
+@media (max-width: 768px) {
+  .recommended .all {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.recommended .all .items {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media (max-width: 768px) {
+  .recommended .all .items p {
+    font-size: 1rem;
+  }
+}
+.recommended .all .items .pic img {
+  width: 150px;
+}
+@media (max-width: 768px) {
+  .recommended .all .items .pic img {
+    width: 100px;
+  }
+}
+.recommended .all .items .info p {
+  font-size: 0.8rem;
+  color: black;
+}
+.recommended .all .items .info .green {
+  color: rgb(158, 238, 158);
+}
+.recommended .all .items .info span {
+  text-decoration: line-through;
+}
+
+.baby {
+  padding: 2rem 2rem;
+}
+.baby .specual img {
+  width: 1350px;
+}
+.baby .bigsave {
+  display: flex;
+  padding-top: 1rem;
+  gap: 1rem;
+}
+.baby .bigsave img {
+  width: 700px;
+}
+.baby .furniture {
+  display: flex;
+  padding-top: 1rem;
+  align-items: center;
+  gap: 0.7rem;
+}
+.baby .furniture img {
+  width: 300px;
 }/*# sourceMappingURL=style.css.map */

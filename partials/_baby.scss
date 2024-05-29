@@ -1,0 +1,25 @@
+.baby{
+    padding: 2rem 2rem;
+    .specual{
+        img{
+            width: 1350px;
+        }
+    }
+    .bigsave{
+        display: flex;
+        padding-top: 1rem;
+        gap: 1rem;
+        img{
+            width: 700px;
+        }
+    }
+    .furniture{
+        display: flex;
+        padding-top: 1rem;
+        align-items: center;
+        gap: .7rem;
+        img{
+            width: 300px;
+        }
+    }
+}
